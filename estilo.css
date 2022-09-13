@@ -1,0 +1,148 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+#header{
+    background-color: grey;
+    z-index: 1 ;
+}
+body{
+    background-color:black;   
+}
+html{
+    scroll-behavior: smooth;
+}
+#h1-header{
+    color: black;
+    font-size: arial;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+}
+.h3-header{
+    color: black;
+    font-size: arial;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+}
+.link-cabeçalho{
+    text-decoration: none;
+    color: black;
+    word-spacing: 10px;
+    font-size: 16px;
+    font-family: arial;
+}
+#navegação{
+    text-align: right;
+    padding-right: 5px;
+}
+.section-1{
+    background-color: grey;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    height: 150px;
+    border-radius: 12px;
+}
+.h2-section1{
+    font-family: arial;
+    font-size: 18px;
+    padding-top: 27px;
+}
+.p1{
+    padding-top: 13px;
+    font-family: arial;
+    font-size: 22px;
+}
+#section-grid{
+    padding: 10%;
+    height: 10%;
+    padding-bottom: 20px;
+}
+.section-2{
+    background-color: grey;
+    margin: 0 auto;
+    width: 40%;
+    max-width: 100%;
+    height: 180px;
+    border-radius: 12px;
+    text-align: center;
+}
+.grid{
+    background-color: none;
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1 fr));
+    grid-column-gap: 10px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 5px;
+}
+.sub-grid{
+    margin: 0 auto;
+    padding: 20%;
+    background-color: #fff;
+}
+.img-prato{
+    max-width: 100%;
+
+}
+.p-preços{
+    font-family: arial;
+    font-size: 18px;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.botao-acao{
+    width: 70%;
+    background-color:black;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 12px;
+    padding-top: 5px;
+}
+.link-cabeçalho{
+    font-weight: bold;
+    font-family: arial;
+}
+.link-cabeçalho{
+    color:black;
+    transition: all ease-in-out 3ms;
+}
+#rodapé{
+    background-color: grey;
+}
+#h2-rodapé{
+    padding-top: 5px;
+    color: #fff;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.p1-footer{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+.botao-whatsapp{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 25px;
+    background-color: green;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 1000;
+    box-shadow: 1px 2px 5px green;
+}
+.fa-whatsapp{
+    margin-top: 15px;
+    color: #fff;
+}
